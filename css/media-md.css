@@ -1,0 +1,81 @@
+/* medium devices (tablets, 768px and up*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+   /* header */
+   .header-content{
+    padding-top: 8%;
+    }
+    .header-content h2{
+        font-size: 32px;
+    }
+    .header-content h1{
+        font-size: 90px;
+    }
+    .button-custom{
+        width: 250px;
+        height: 60px;
+    }
+
+    /* features */
+    .features{
+        padding: 80px 0;
+    }
+    .features-icon img{
+        width: 40%;
+    }
+    .features-content h3::after{
+        width: 35%;
+        margin-left: 33%;
+    }
+
+    /* introducing */
+    .introducing{
+	padding: 80px 0 0;
+    }
+    .introducing-content{
+        padding: 0 0 50px;
+    }
+    .introducing-content h3{
+        letter-spacing: .1em;
+    }
+    .introducing-content h3::after{
+        width: 11%;
+    }
+    .introducing-picture img{
+        width: 60%;
+    }
+
+    /* slider */
+    .slider{
+        padding: 80px 0;
+    }
+    .slider-item-1-content h3{
+        font-size: 25px;
+        line-height: 40px;
+    }
+
+    /* address-and-map */
+    .address-and-map{
+        padding: 80px 0;
+    }
+    .address-gr{
+        background-color: #ffffff;
+    }
+    .address:last-of-type{
+        padding-bottom: 0;
+    }
+    .address-gr:last-of-type{
+        padding-bottom: 0;
+    }
+    .map-related{
+        width: 690px;
+    }
+    
+    /* footer */
+    .footer{
+        padding: 25px 0;
+    }
+    
+
+    
+}	

@@ -1,0 +1,158 @@
+/* Extra small devices (portrait phones, less than 576px*/
+@media (max-width: 575.98px) {
+
+    /* header */
+    .sub-menu{
+        padding-right: 10px;
+    }
+    .sub-menu li a{
+        font-size: 14px;
+        padding: 0 5px;
+    }
+    .sub-menu li a:hover{
+	padding: 8px 10px;
+	border-radius: 5%;
+}
+    .navbar {
+        padding: .5rem .25rem;
+    }
+    .navbar-brand{
+        width: 60px;
+    }
+    .navbar-light .navbar-toggler-icon i {
+        font-size: 20px;
+        padding-top: 8px;
+    }
+    .navbar-collapse {
+        margin-top: 20px;
+    }
+   .header-content{
+    padding-top: 40%;
+    }
+    .header-content h2{
+        font-size: 22px;
+    }
+    .header-content h1{
+        font-size: 55px;
+    }
+    .button-custom{
+        width: 175px;
+        height: 45px;
+        font-size: 15px;
+        letter-spacing: .05em;
+        margin-top: 10px;
+    }
+
+    /* features */
+    .features{
+        padding: 50px 0;
+    }
+    .features-item-mt{
+        margin-top: 30px;
+    }
+    .features-item-mt:first-of-type{
+        margin-top: 0;
+    }
+    .features-icon img{
+        width: 20%;
+    }
+    .features-content{
+        padding: 0;
+    }
+    .features-content h3::after{
+        width: 40%;
+        margin-left: 30%;
+    }
+
+    /* introducing */
+    .introducing{
+	padding: 50px 0 0;
+    }
+    .introducing-content{
+        padding: 0 0 40px;
+        text-align: left !important;
+    }
+    .introducing-content h3{
+        font-size: 16;
+        letter-spacing: -.03em;
+    }
+    .introducing-content h3::after{
+        width: 27%;
+    }
+    .introducing-content p{
+        font-size: 15px !important;
+        font-weight: 300 !important;
+        letter-spacing: 0 !important;
+    }
+    .introducing-icon img{
+        width: 90%;
+    }
+    .introducing-picture{
+        width: 90%;
+        display: block;
+        margin: 0 auto;
+    }
+
+    /* slider */
+    .slider{
+        padding: 60px 0;
+    }
+    .slider-item-1-content h3{
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .slider-item-1-content p{
+        font-size: 15px;
+    }
+
+    /* address-and-map */
+    .address-and-map{
+        padding: 50px 0;
+    }
+    .address-gr{
+        background-color: #ffffff;
+    }
+    .address-gr:last-of-type{
+        padding-bottom: 0;
+    }
+    .address{
+        padding: 10px 0;
+    }
+    .address:last-of-type{
+        padding-bottom: 0;
+    }
+    .address-and-map-title h3{
+        padding: 0 0 15px;
+    }
+    .address-sl{
+        width: 30px;
+        height: 30px;
+        padding-top: 2px;
+        margin: 0 auto 10px;
+    }
+    .address-content h2{
+        font-size: 20px;
+        padding: 2px 0 0;
+        text-align: center;
+    }
+    .address-content p{
+        font-size: 15px;
+        padding: 0;
+        margin: 5px 0;
+        text-align: center;
+    }
+    .address-distance h2{
+        font-size: 20px;
+    }
+    .address-distance{
+        padding: 2px 0 0;
+        text-align: center;
+    }
+    
+    /* footer */
+    .footer{
+        padding: 15px 0;
+    }
+
+   
+}

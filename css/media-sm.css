@@ -1,0 +1,105 @@
+/* small devices (landscape phones, 576px and up*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+    /* header */
+    .navbar-brand img{
+        width: 75%;
+    }
+   .header-content{
+    padding-top: 15%;
+    }
+    .header-content h2{
+        font-size: 28px;
+    }
+    .header-content h1{
+        font-size: 75px;
+    }
+    .button-custom{
+        width: 220px;
+        height: 55px;
+    }
+
+    /* features */
+    .features{
+        padding: 60px 0;
+    }
+    .features-icon img{
+        width: 20%;
+    }
+    .features-content{
+        padding: 0;
+    }
+    .features-content h3::after{
+        width: 20%;
+        margin-left: 40%;
+    }
+
+    /* introducing */
+    .introducing{
+	padding: 60px 0 0;
+    }
+    .introducing-content{
+        padding: 0 0 40px;
+    }
+    .introducing-content h3::after{
+        width: 18%;
+    }
+    .introducing-picture img{
+        width: 65%;
+    }
+
+    /* slider */
+    .slider{
+        padding: 60px 0;
+    }
+    .slider-item-1-content h3{
+        font-size: 23px;
+        line-height: 35px;
+    }
+
+    /* address-and-map */
+    .address-and-map{
+        padding: 60px 0;
+    }
+    .address-gr{
+        background-color: #ffffff;
+    }
+    .address-gr:last-of-type{
+        padding-bottom: 0;
+    }
+    .address{
+        padding: 10px 0;
+    }
+    .address:last-of-type{
+        padding-bottom: 0;
+    }
+    .map-related{
+        width: 690px;
+    }
+    .address-and-map-title h3{
+        padding: 0 0 30px;
+    }
+    .address-sl{
+        width: 30px;
+        height: 30px;
+        padding-top: 2px;
+    }
+    .address-content h2{
+        font-size: 22px;
+        padding: 2px 0 0;
+    }
+    .address-content p{
+        font-size: 15px;
+        padding: 0;
+        margin: 5px 0;
+    }
+    .address-distance{
+        padding: 2px 0 0;
+    }
+    
+    /* footer */
+    .footer{
+        padding: 20px 0;
+    }
+    
+}
